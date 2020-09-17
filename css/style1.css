@@ -1,13 +1,51 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-color:#b0ff33;
+  background-color:color: rgba(0,0,0,0.5);
   margin: 2em;
+}
+
+.float-bg{
+	top: 2%;
+	left: 8%;
+ 	position: absolute;
+ 	transform: rotate(-3deg);
+	height: 800px;
+	width: 88%;
+  	background-image: linear-gradient(60deg, rgba(125,255,51,1) 20%, rgba(255, 171, 213,1) 50%, rgba(238,255,51,1) 80%); 
+ 	background-repeat: no-repeat;
+ 	z-index: -1;
+}
+
+#float-img-1{
+	top: 60vw;
+	left: 70%;
+	height: 280px;
+	width: 440px;
+	background-image: url("../images/v1.0.png");
+	transform: rotate(2deg);
+	position: absolute;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	z-index: -1;
+}
+
+#float-img-2{
+	top: 75vw;
+	left: 60%;
+	height: 290px;
+	width: 440px;
+	background-image: url("../images/v1.1.png");
+	transform: rotate(-2deg);
+	position: absolute;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	z-index: -1;
 }
 
 h1 {
   font-family: 'Inconsolata','roboto', monospace;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 p {
@@ -15,8 +53,38 @@ p {
 }
 
 #intro{
+  top: 50%;
   width: 80%;
   font-family:georgia,garamond,serif;
   font-size:3.2vw;
   font-style:italic;
+  mix-blend-mode: multiply;
+  color: rgba(0,0,0,0.8);
+  position: relative;
+}
+
+
+table {
+	vertical-align: top;
+	text-align: left;
+	border-spacing:2em;
+	font-family: 'Inconsolata','roboto', monospace;
+ 	font-size: 16px;
+ 	margin-top: 200px;
+ 	margin-bottom: 100px;
+ 	table-layout: fixed;
+ 	width: 100%;
+}
+
+th, td {
+	vertical-align: top;
+	padding: 0.25rem;
+}
+
+.date{
+	width: 20%;
+}
+
+.speaker{
+	width: 20%;
 }
