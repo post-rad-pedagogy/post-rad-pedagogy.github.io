@@ -5,41 +5,38 @@ body {
   margin: 2em;
 }
 
-.float-bg{
+#float-bg-1{
 	top: 2%;
 	left: 8%;
  	position: absolute;
  	transform: rotate(-3deg);
-	height: 800px;
+	height: 740px;
 	width: 88%;
-  	background-image: linear-gradient(60deg, rgba(125,255,51,1) 20%, rgba(255, 171, 213,1) 50%, rgba(238,255,51,1) 80%); 
+  	background-image: linear-gradient(60deg, rgba(125,255,51,0.6) 20%, rgba(255, 171, 213,1) 50%, rgba(238,255,51,1) 80%); 
  	background-repeat: no-repeat;
  	z-index: -1;
 }
 
-#float-img-1{
-	top: 60vw;
-	left: 70%;
-	height: 280px;
-	width: 440px;
-	background-image: url("../images/v1.0.png");
+#float-bg-2{
+	top: 800px;
+	left: 2%;
+	height: 600px;
+	width:  90%;
+	background-image: linear-gradient(188deg, rgba(63,193,255,0.5) 20%, rgba(255, 176, 59,1) 40%, rgba(255,123,172,0.5) 82%, rgba(252, 238, 33,1) 90%); 
 	transform: rotate(2deg);
 	position: absolute;
  	background-repeat: no-repeat;
- 	background-size: cover;
  	z-index: -1;
 }
 
-#float-img-2{
-	top: 75vw;
-	left: 60%;
-	height: 290px;
-	width: 440px;
-	background-image: url("../images/v1.1.png");
+#float-bg-3{
+	top: 1400px;
+	left: 6%;
+	height: 700px;
+	width:  88%;
+	background-image: linear-gradient(6deg, rgba(0,55,51,1) 20%, rgba(255, 171, 213,1) 50%, rgba(238,255,51,1) 80%); 
 	transform: rotate(-2deg);
 	position: absolute;
- 	background-repeat: no-repeat;
- 	background-size: cover;
  	z-index: -1;
 }
 
@@ -56,7 +53,7 @@ p {
   top: 50%;
   width: 80%;
   font-family:georgia,garamond,serif;
-  font-size:3.2vw;
+  font-size:4.5vh;
   font-style:italic;
   mix-blend-mode: multiply;
   color: rgba(0,0,0,0.8);
@@ -67,9 +64,9 @@ p {
 table {
 	vertical-align: top;
 	text-align: left;
-	border-spacing:2em;
+	border-spacing:0.25em;
 	font-family: 'Inconsolata','roboto', monospace;
- 	font-size: 16px;
+ 	font-size: 2vh;
  	margin-top: 200px;
  	margin-bottom: 100px;
  	table-layout: fixed;
