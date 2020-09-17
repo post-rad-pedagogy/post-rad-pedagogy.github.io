@@ -1,0 +1,9 @@
+$(document).click(function(){
+	$("#float-bg-1").toggleClass("click")
+})
+$(document).dblclick(function(){
+	$("#float-bg-2").toggleClass("click")
+})
+$(document).mouseover(function(){
+	$("#float-bg-3").toggleClass("click")
+})
