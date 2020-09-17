@@ -10,18 +10,28 @@
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="css/style1.css" />
 
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178244968-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-178244968-1');
+	</script>
+
   </head>
+  
   <body>
     
-			<h1>The Center <br> for<br> Post-Radical<br> Pedagogy</h1>
+	<h1>The Center <br> for<br> Post-Radical<br> Pedagogy</h1>
 	
 	<div class="float-bg">
 		<div id="float-bg-1"></div>
 		<div id="float-bg-2"></div>
 		<div id="float-bg-3"></div>
 	</div>		
+
     <div id="intro">
     	<p>
 			The Center for Post-Radical Pedagogy (Nida Abdullah, Xinyi Li, Chris Lee) was convened as a space to explore, antagonize, challenge, and interrogate institutional values and legacies. The center operates as a vehicle to activate pedagogical practice through and against institutional inertia. 
@@ -35,7 +45,7 @@
 
 
 	<div > 
-		<table id="schedule">
+		<table class="table" id="schedule">
 			<colgroup>
 			    <col class="date">
 			    <col class="speaker">
